@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Counter title="Entraron" :start="150"/>
+  <!-- <Counter title="Entraron" :start="150"/> -->
+  <Indecision />
 </template>
 
 <script>
-import Counter from '@/components/Counter';
+// import Counter from '@/components/Counter';
+import Indecision from '@/components/Indecision'
 
 export default {
   name: 'App',
   components: {
-    Counter
+    // Counter,
+    Indecision
   }
 }
 </script>
